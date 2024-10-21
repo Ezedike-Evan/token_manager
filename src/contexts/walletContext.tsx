@@ -5,7 +5,7 @@ import { WalletModalProvider } from '@solana/wallet-adapter-react-ui'
 import { clusterApiUrl } from '@solana/web3.js'
 import React, { useMemo } from 'react'
 
-const WalletContext = ({ children } : React.PropsWithChildren ) => {
+const WalletContext = ({ children } : React.PropsWithChildren )=>{
     const network = WalletAdapterNetwork.Devnet;
 
     const endpoint = useMemo(() => clusterApiUrl(network), [network])

@@ -5,7 +5,7 @@ const  NavBar = ()=>{
  
   return (
     <nav>
-      <h2>Token Manager</h2>
+      <h2>Token Flow</h2>
       <WalletMultiButton />
     </nav>
   )
