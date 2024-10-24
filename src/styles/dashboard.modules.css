@@ -1,0 +1,16 @@
+#dashboard-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 30px;
+}
+#dashboard-container .dashboard-card{
+    cursor: pointer;
+    align-content: center;
+    background-color: #1a1f2e;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+}
